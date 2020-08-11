@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
+    color: #2e2e31;
+}
+
+/* links navegacion */
+
+.links-navegacion {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    list-style-type: none;
+    box-shadow: 0px 0px 29px 0px rgba(134, 134, 134, 0.25);
+}
+
+.links-navegacion li {
+    margin: 10px;
+}
+
+.boton {
+    background-color: lightcoral;
+    padding: 10px 25px;
+    border-radius: 100px;
+    font-weight: 500;
+    color: gray;
+}
+
+/* termina links navegacion */
+
+/* seccion presentacion */
+
+.seccion-presentacion {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding: 80px 20px;
+}
+
+.contenedor-presentacion {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* trate de que los elementos caigan y queden alineados cuando ya no entran en la pantalla y funciona pero no quedan tan bellos como en la pagina de ada */
+    height: 100vh;
+}
+
+.saludo {
+    font-size: 30px;
+    margin-bottom: 5px;
+    font-weight: 800;
+}
+
+.contenedor-imagen {
+    display: flex;
+    max-width: 30vw;
+    margin: 50px;
+}
+
+.nombre {
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 5px;
+    color: lightcoral;
+}
+
+.fun-facts {
+    font-size: 16px;
+    margin-bottom: 40px;
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+    }
+
+.img-pluto {
+    width: 300px;
+    height: auto;
+}
+
+/* fin seccion presentacion */
+
+/* seccion conocimientos */
+
+.seccion-conocimientos {
+    background-color: rgb(255, 232, 221);
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-conocimientos {
+    align-items: center;
+    background-color: rgb(254, 239, 255); 
+    border: 1px solid rgb(255, 191, 252);
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;   
+    margin: 20px;
+    flex-direction: column;
+}
+
+.titulo-conocimientos {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.contenido-conocimientos {
+    text-align: center;
+    margin-bottom: 30px;
+    max-width: 800px;
+}
+
+.contenedor-tarjetas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+}
+
+.tarjeta {
+    text-align: center;
+    background-color: rgb(254, 239, 255); 
+    border: 1px solid rgb(255, 191, 252);
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;   
+    margin: 20px;
+}
+
+.imagen-tarjeta {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+    
+}
+
+/* fin seccion conocimientos */
+
+/* quote */
+
+.seccion-quote {
+    background-color: #b3127d;
+    color: #fafafa;
+    padding: 50px;
+}
+
+.contenedor-cita {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.accent-quote {
+    font-size: 50px;
+    font-weight: 900;
+    padding: 5px;
+}
+
+.quote {
+    max-width: 800px;
+    font-size: 20px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.autor {
+    font-size: 25px;
+    font-weight: 900;
+    padding: 20px;
+}
+
+/* fin quote */
+
+/* mis proyectos */
+
+.seccion-proyectos {
+    
+   
+}
+
+.titulo-proyectos {
+    text-align: center;
+    padding: 30px;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.contenedor-proyectos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+/* fin mis proyectos */
+
+/* footer */
+
+.footer {
+    color: #fafafa;
+    background-color: #b3127d;
+    align-items: center;
+    justify-content: center;
+}
+
+.links-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    list-style-type: none;
+}
+
+.links-footer li {
+    padding: 20px;
+}
+
+.iconos-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iconos-footer i {
+    font-size: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.con-amor {
+    text-align: center;
+    padding: 30px;
+}
+
+/* fin footer */
