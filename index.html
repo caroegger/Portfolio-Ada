@@ -5,28 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
-    <title>Portfolio</title>
+    <title>Carola Egger</title>
 </head>
 
 <body>
     <!-- empieza barra de navegacion -->
     <nav>
         <ul class="links-navegacion">
-            <li>HOLA</li>
-            <li>CONOCIMIENTOS</li>
-            <li>PROYECTOS</li>
-            <li class="boton">CONTACTO</li>
+            <li><a href="#hola">HOLA</a></li>
+            <li><a href="#conocimientos">CONOCIMIENTOS</a></li>
+            <li><a href="#proyectos">PROYECTOS</a></li>
+            <li class="boton"><a href="#contacto">CONTACTO</a></li>
         </ul>
     </nav>
     <!-- fin barra de navegacion -->
     <!-- empieza seccion presentacion -->
-    <section class="seccion-presentacion">
+    <section class="seccion-presentacion" id="hola">
         <div class="contenedor-presentacion">
             <div class="sobre-mi">
                 <p class="saludo">¡Hola! Soy</p>
                 <h1 class="nombre">Carola Egger</h1>
                 <p class="fun-facts">Restauradora y futura programadora.</p>
-                <a href="proyects" class="boton">LO QUE HAGO</a>
+                <a href="#proyectos" class="boton">LO QUE HAGO</a>
             </div>
             <div class="contenedor-imagen">
                 <img src="./Imagenes/pluto-103.png" class="img-pluto">
@@ -35,7 +35,7 @@
     </section>
     <!-- fin seccion presentacion -->
     <!-- empieza seccion conocimientos -->
-    <section class="seccion-conocimientos">
+    <section class="seccion-conocimientos" id="conocimientos">
         <div class="contenedor-conocimentos">
             <h2 class="titulo-conocimientos">Mis conocimientos</h2>
             <p class="contenido-conocimientos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut deleniti distinctio laudantium laborum officia, voluptate deserunt soluta, minima suscipit numquam veniam esse temporibus cumque vitae ratione delectus consequatur. Itaque, perspiciatis!</p>
@@ -78,7 +78,7 @@
     </section>
     <!-- fin seccion quote -->
     <!-- empieza seccion mis proyectos -->
-    <section class="seccion-proyectos">
+    <section class="seccion-proyectos" id="proyectos">
         <h2 class="titulo-proyectos">Mis proyectos</h2>
         <div class="contenedor-proyectos">
             
@@ -118,17 +118,16 @@
     <footer class="footer">
         <nav>
             <ul class="links-footer">
-                <li>HOLA</li>
-                <li>CONOCIMIENTOS</li>
-                <li>PROYECTOS</li>
-                <li>CONTACTO</li>
+                <li><a href="#hola" class="link-footer">HOLA</a></li>
+                <li><a href="#conocimientos" class="link-footer">CONOCIMIENTOS</a></li>
+                <li><a href="#proyectos" class="link-footer">PROYECTOS</a></li>
+                <li><a href="#contacto" class="link-footer">CONTACTO</a></li>
             </ul>
         </nav>
-        <div class="iconos-footer">
-            <i class="devicon-twitter-plain"></i>
-            <i class="devicon-facebook-plain"></i>
-            <i class="devicon-linkedin-plain"></i>
-            <i class="devicon-github-plain"></i>
+        <div class="iconos-footer" id="contacto">
+            <a href="https://www.facebook.com/carola.egger.988"><i class="devicon-facebook-plain"></i></a>
+            <a href="https://www.linkedin.com/in/carola-egger-53691819b"><i class="devicon-linkedin-plain"></i></a>
+            <a href="https://github.com/caroegger"><i class="devicon-github-plain"></i></a>
         </div>
         <div class="con-amor">
             <p>Hecho con ❤️ por Carola Egger</p>

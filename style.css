@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
 }
@@ -40,7 +44,10 @@ body {
     display: flex;
     text-align: center;
     justify-content: center;
-    padding: 80px 20px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .contenedor-presentacion {
@@ -48,8 +55,8 @@ body {
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    /* trate de que los elementos caigan y queden alineados cuando ya no entran en la pantalla y funciona pero no quedan tan bellos como en la pagina de ada */
     height: 100vh;
+    width: 100vw;
 }
 
 .saludo {
@@ -58,14 +65,8 @@ body {
     font-weight: 800;
 }
 
-.contenedor-imagen {
-    display: flex;
-    max-width: 30vw;
-    margin: 50px;
-}
-
 .nombre {
-    font-size: 45px;
+    font-size: 65px;
     font-weight: 900;
     margin-bottom: 5px;
     color: lightcoral;
@@ -79,7 +80,16 @@ body {
 
 a {
     text-decoration: none;
+    font-weight: 500;
+    color: #20041f;
     }
+
+.contenedor-imagen {
+    display: flex;
+    padding: 60px;
+    /* max-width: 30vw; */
+}
+    
 
 .img-pluto {
     width: 300px;
@@ -125,22 +135,24 @@ a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 800px;
+    max-width: 900px;
 }
 
 .tarjeta {
     text-align: center;
-    background-color: rgb(254, 239, 255); 
+    font-weight: 600;
+    background-color: white; 
     border: 1px solid rgb(255, 191, 252);
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     border-radius: 10px;   
     margin: 20px;
 }
 
 .imagen-tarjeta {
-    width: 100px;
-    height: 100px;
+    width: auto;
+    max-width: 200px;
+    height: 150px;
     padding: 20px;
     
 }
@@ -227,6 +239,10 @@ a {
     padding: 20px;
 }
 
+.link-footer {
+    color: #fafafa;
+}
+
 .iconos-footer {
     display: flex;
     justify-content: center;
@@ -237,6 +253,7 @@ a {
     font-size: 35px;
     padding-left: 15px;
     padding-right: 15px;
+    color: #fafafa;
 }
 
 .con-amor {
