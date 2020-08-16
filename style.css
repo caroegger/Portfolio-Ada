@@ -15,6 +15,7 @@ body {
 
 /* links navegacion */
 
+
 .links-navegacion {
     display: flex;
     justify-content: flex-end;
@@ -34,6 +35,10 @@ body {
     border-radius: 100px;
     font-weight: 500;
     color: gray;
+}
+
+.icono {
+    display: none;
 }
 
 /* termina links navegacion */
@@ -262,3 +267,30 @@ a {
 }
 
 /* fin footer */
+/* MediaQuery */
+
+@media (max-width: 600px) { 
+    .icono { 
+        color: #20041f;
+        display: block;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    li {
+        display: none;
+    }
+
+    .img-pluto {
+        width: 200px;
+        height: auto;
+    }
+
+    .contenedor-conocimientos {
+        width: 100vw;
+    }
+
+    .titulo-conocimientos {
+        font-size: 20px;
+    }
+}
