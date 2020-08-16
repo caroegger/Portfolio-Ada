@@ -124,6 +124,7 @@ a {
 }
 
 .titulo-conocimientos {
+    color: lightcoral;
     text-align: center;
     margin-bottom: 30px;
     font-size: 45px;
@@ -147,7 +148,7 @@ a {
     text-align: center;
     font-weight: 600;
     background-color: white; 
-    border: 1px solid rgb(255, 191, 252);
+    border: 1px solid lightcoral;
     width: 250px;
     height: 250px;
     border-radius: 10px;   
@@ -167,8 +168,8 @@ a {
 /* quote */
 
 .seccion-quote {
-    background-color: #b3127d;
-    color: #fafafa;
+    background-color: #585858;
+    color: rgb(255, 232, 221);
     padding: 50px;
 }
 
@@ -208,6 +209,7 @@ a {
 }
 
 .titulo-proyectos {
+    color: lightcoral;
     text-align: center;
     padding: 30px;
     font-size: 45px;
@@ -226,8 +228,8 @@ a {
 /* footer */
 
 .footer {
-    color: #fafafa;
-    background-color: #b3127d;
+    color: rgb(255, 232, 221);
+    background-color: #585858;
     align-items: center;
     justify-content: center;
 }
@@ -245,7 +247,7 @@ a {
 }
 
 .link-footer {
-    color: #fafafa;
+    color: rgb(255, 232, 221);
 }
 
 .iconos-footer {
@@ -258,7 +260,7 @@ a {
     font-size: 35px;
     padding-left: 15px;
     padding-right: 15px;
-    color: #fafafa;
+    color: rgb(255, 232, 221);
 }
 
 .con-amor {
@@ -292,5 +294,10 @@ a {
 
     .titulo-conocimientos {
         font-size: 20px;
+    }
+
+    .seccion-quote {
+        padding-left: 10px;
+        padding-right: 10px;
     }
 }
