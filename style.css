@@ -93,7 +93,7 @@ a {
     }
 
 .contenedor-imagen {
-    display: flex;
+    /* display: flex; */
     padding: 60px;
     /* max-width: 30vw; */
 }
@@ -278,6 +278,10 @@ a {
     padding: 50px;
 }
 
+.sorpresa {
+    color: rgb(255, 232, 221);
+}
+
 /* fin footer */
 /* MediaQuery */
 
@@ -300,6 +304,7 @@ a {
     .img-pluto {
         width: 200px;
         height: auto;
+        padding: 20px;
     }
 
     .contenedor-conocimientos {
