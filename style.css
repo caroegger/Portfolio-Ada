@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -30,6 +31,7 @@ body {
 }
 
 .boton {
+    
     background-color: lightcoral;
     padding: 10px 25px;
     border-radius: 100px;
@@ -49,10 +51,9 @@ body {
     display: flex;
     text-align: center;
     justify-content: center;
-    padding-top: 80px;
-    padding-bottom: 80px;
     padding-left: 20px;
     padding-right: 20px;
+    height: 100vh;
 }
 
 .contenedor-presentacion {
@@ -71,9 +72,11 @@ body {
 }
 
 .nombre {
-    font-size: 65px;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 40px;
     font-weight: 900;
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     color: lightcoral;
 }
 
@@ -124,10 +127,11 @@ a {
 }
 
 .titulo-conocimientos {
+    font-family: "Press Start 2P", sans-serif;
     color: lightcoral;
     text-align: center;
     margin-bottom: 30px;
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 900;
 }
 
@@ -181,6 +185,7 @@ a {
 }
 
 .accent-quote {
+    font-family: "Press Start 2P", sans-serif;
     font-size: 50px;
     font-weight: 900;
     padding: 5px;
@@ -189,12 +194,14 @@ a {
 .quote {
     max-width: 800px;
     font-size: 20px;
+    text-align: center;
     margin: 20px;
     padding: 15px;
 }
 
 .autor {
-    font-size: 25px;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 20px;
     font-weight: 900;
     padding: 20px;
 }
@@ -209,10 +216,11 @@ a {
 }
 
 .titulo-proyectos {
+    font-family: "Press Start 2P", sans-serif;
     color: lightcoral;
     text-align: center;
-    padding: 30px;
-    font-size: 45px;
+    padding: 40px;
+    font-size: 35px;
     font-weight: 900;
 }
 
@@ -264,8 +272,10 @@ a {
 }
 
 .con-amor {
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 10px;
     text-align: center;
-    padding: 30px;
+    padding: 50px;
 }
 
 /* fin footer */
@@ -281,6 +291,10 @@ a {
 
     li {
         display: none;
+    }
+
+    .seccion-presentacion {
+        padding-top: 30px;
     }
 
     .img-pluto {
@@ -300,4 +314,19 @@ a {
         padding-left: 10px;
         padding-right: 10px;
     }
+
+    .titulo-proyectos {
+        font-size: 20px;
+    }
+
+    .accent-quote {
+        font-size: 15px;
+    }
+    .quote {
+        font-size: 10px;
+    }
+    .autor {
+        font-size: 15px;
+    }
 }
+
