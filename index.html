@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+
+    <!-- Si no usas devicon, por que lo importas aqui? -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/konpa/devicon@master/devicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="shortcut icon" type="image/ico" href="./Imagenes/favicon.ico">
@@ -35,6 +37,9 @@
                 <a href="#proyectos" class="boton">LO QUE HAGO</a>
             </div>
             <div class="contenedor-imagen">
+                <!-- Si bien me intriga mucho saber quien es pluto, recorda que los nombres de clases deben ser
+                descriptivos en un sentido funcional: deben decir que funcion cumple el elemento en cuestion,
+                no de quien es la foto (porque eso siempre puede cambiar) -->
                 <img src="./Imagenes/pluto-103.png" class="img-pluto">
             </div>
         </div>
@@ -42,6 +47,9 @@
     <!-- fin seccion presentacion -->
     <!-- empieza seccion conocimientos -->
     <section class="seccion-conocimientos" id="conocimientos">
+
+        <!-- aqui pusiste conocimentos en lugar de conocimientos. En el css estilaste con el nombre 
+        conocimientos, asi que ninguno de esos estilos se aplican aqui - por suerte, porque romperian todo.  -->
         <div class="contenedor-conocimentos">
             <h2 class="titulo-conocimientos">Mis conocimientos</h2>
             <p class="contenido-conocimientos">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci, hic. Ex voluptatum quos, ipsa ipsam sit est laudantium nihil maxime!</p>
@@ -77,6 +85,13 @@
     <!-- empieza seccion quote -->
     <section class="seccion-quote">
         <div class="contenedor-cita">
+
+            <!-- No tenes por qué saber esto, asi que no lo tomo como correccion sino solo como comentario:
+            no es buena practica usar texto para elementos decorativos, como lo es la comilla en este caso. 
+            Los lectores de pantalla, las herramientas que usan las personas no-videntes para 
+            recorrer nuestra web, necesitan los elementos de texto para leerle a los usuarios. 
+            Si usamos texto para decorar, el lector de pantalla va a leerlo y va a confundir a nuestro
+            usuario. En este caso, es mucho mejor utilizar un icono o una imagen.  -->
             <p class="accent-quote">"</p>
             <p class="quote">I hope that in this year to come, you make mistakes.
                 Because if you are making mistakes, then you are making new things, trying new things, learning, living, pushing yourself, changing yourself, changing your world. You're doing things you've never done before, and more importantly, you're Doing Something.</p>
@@ -137,6 +152,8 @@
             <a href="https://github.com/caroegger"><i class="devicon-github-plain"></i></a>
         </div>
         <div class="con-amor">
+
+            <!-- 1000 puntos extra por esto -->
             <p>Hecho con ❤️ por <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="sorpresa">Carola Egger</a></p>
         </div>
     </footer>

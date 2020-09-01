@@ -61,6 +61,8 @@ body {
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
+
+    /* ninguno de estos dos es necesario. height, porque ya la da el padre. width, porque se da sola por defecto */
     height: 100vh;
     width: 100vw;
 }
@@ -114,6 +116,7 @@ a {
     justify-content: center;
 }
 
+/* este es el estilo que no se te esta aplicando, por estar mal escrito en html */
 .contenedor-conocimientos {
     align-items: center;
     background-color: rgb(254, 239, 255); 
@@ -209,11 +212,13 @@ a {
 
 /* mis proyectos */
 
+
+/* no es buena practica dejar estos selectores vacios */
 .seccion-proyectos {
     
    
 }
-
+/*  */
 .titulo-proyectos {
     font-family: "Press Start 2P", sans-serif;
     color: lightcoral;
