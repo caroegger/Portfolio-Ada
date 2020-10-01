@@ -1,8 +1,8 @@
-# Proyecto Portfolio personal - Ada (ES)
+# Proyecto_Portfolio_Personal - Ada (ES)
 
 Podes verlo haciendo click [acá](https://caroegger.github.io/Portfolio-Ada).
 ---
-## Descripción 
+## Description: 
 
 Este es mi primer proyecto de Ada, como parte de mis estudios para convertirme en desarrolladora de Frontend.
 Las diferentes secciones aun **no** tienen contenido, pero estos se irán agregando a medida que se realicen.
@@ -24,6 +24,6 @@ Sections within the page **do not** have any content as of right now, but it wil
 
 ## Tecnologies used 
 
-- HTML
-- CSS3
+- `HTML`
+- `CSS3`
 
